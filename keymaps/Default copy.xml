@@ -1,0 +1,5 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="ctrl meta alt l" />
+  </action>
+</keymap>
