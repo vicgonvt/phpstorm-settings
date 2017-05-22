@@ -1,5 +1,32 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="ChangesView.Diff" />
+  <action id="CompareTwoFiles" />
+  <action id="Console.TableResult.CloneRow" />
+  <action id="DatabaseView.CopyAction" />
+  <action id="Diff.ShowDiff" />
+  <action id="Diff.ShowSettingsPopup" />
+  <action id="Diff.UpdatedFiles" />
+  <action id="EditorDuplicate" />
+  <action id="FileChooser.GotoDesktop" />
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="ctrl meta g" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
+  <action id="SendEOF" />
+  <action id="ShelvedChanges.Diff" />
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="ctrl meta alt l" />
   </action>
+  <action id="Uml.ShowDiff" />
+  <action id="openAssertEqualsDiff" />
 </keymap>
