@@ -2,11 +2,14 @@
   <action id="ChangesView.Diff" />
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
+  <action id="Console.TableResult.Reload" />
   <action id="DatabaseView.CopyAction" />
   <action id="Diff.ShowDiff" />
   <action id="Diff.ShowSettingsPopup" />
   <action id="Diff.UpdatedFiles" />
-  <action id="EditorDuplicate" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="meta r" />
+  </action>
   <action id="FileChooser.GotoDesktop" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="GotoFile">
@@ -17,6 +20,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta alt l" />
   </action>
   <action id="ParameterInfo" />
+  <action id="Refresh" />
+  <action id="Replace" />
+  <action id="Rerun" />
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="ctrl meta g" />
     <keyboard-shortcut first-keystroke="shift meta d" />
@@ -31,5 +37,7 @@
   <action id="UnsplitAll">
     <keyboard-shortcut first-keystroke="ctrl meta alt k" />
   </action>
+  <action id="Vcs.Log.Refresh" />
+  <action id="hg4idea.QRefresh" />
   <action id="openAssertEqualsDiff" />
 </keymap>
