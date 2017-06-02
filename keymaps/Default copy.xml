@@ -1,5 +1,8 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
   <action id="ChangesView.Diff" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
   <action id="Console.TableResult.Reload" />
