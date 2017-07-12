@@ -1,8 +1,11 @@
 <application>
   <component name="UISettings">
-    <option name="EDITOR_TAB_LIMIT" value="30" />
+    <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
+    <option name="EDITOR_TAB_LIMIT" value="3" />
+    <option name="EDITOR_TAB_PLACEMENT" value="0" />
     <option name="FONT_FACE" value=".SF NS Text" />
     <option name="FONT_SCALE" value="1.0" />
     <option name="HIDE_TOOL_STRIPES" value="false" />
+    <option name="REUSE_NOT_MODIFIED_TABS" value="true" />
   </component>
 </application>
