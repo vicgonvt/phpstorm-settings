@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.json" />
+    <option name="FILE_MASK" value="spec*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -13,11 +13,17 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.php</mask>
-      <mask>*.ph</mask>
-      <mask>*.</mask>
-      <mask>*.js</mask>
       <mask>*.json</mask>
+      <mask>*.js</mask>
+      <mask>*.j</mask>
+      <mask>*.</mask>
+      <mask>*.p</mask>
+      <mask>*.ph</mask>
+      <mask>*.php</mask>
+      <mask>s*.php</mask>
+      <mask>sp*.php</mask>
+      <mask>spe*.php</mask>
+      <mask>spec*.php</mask>
     </recentFileMasks>
   </component>
 </application>
