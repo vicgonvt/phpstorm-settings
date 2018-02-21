@@ -5,5 +5,6 @@
   </component>
   <component name="Registry">
     <entry key="dumb.aware.run.configurations" value="true" />
+    <entry key="bigger.font.in.project.view" value="true" />
   </component>
 </application>
