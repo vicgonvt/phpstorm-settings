@@ -18,11 +18,16 @@
       <mask>*.</mask>
       <mask>*.p</mask>
       <mask>*.ph</mask>
-      <mask>*.php</mask>
       <mask>s*.php</mask>
       <mask>sp*.php</mask>
       <mask>spe*.php</mask>
       <mask>spec*.php</mask>
+      <mask>*.php</mask>
+      <mask>*..php</mask>
+      <mask>*.b.php</mask>
+      <mask>*.bl.php</mask>
+      <mask>*.blad.php</mask>
+      <mask>*.blade.php</mask>
     </recentFileMasks>
   </component>
 </application>
