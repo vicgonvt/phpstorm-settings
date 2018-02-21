@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="ChangesView.Diff" />
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
@@ -22,6 +25,7 @@
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="ctrl meta alt l" />
   </action>
+  <action id="NextProjectWindow" />
   <action id="ParameterInfo" />
   <action id="Refresh" />
   <action id="Replace" />
