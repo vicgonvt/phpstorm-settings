@@ -15,6 +15,7 @@
     <mask>*.mxml</mask>
     <mask>*.php</mask>
     <mask>specifications.blade.php</mask>
+    <mask>*.scss</mask>
     <mask>*.blade.php</mask>
   </component>
 </application>
