@@ -6,8 +6,6 @@
     <option name="showTipsOnStartup" value="false" />
   </component>
   <component name="Registry">
-    <entry key="dumb.aware.run.configurations" value="true" />
-    <entry key="bigger.font.in.project.view" value="true" />
     <entry key="mac.editor.thumb.default.alpha.base" value="0" />
     <entry key="mac.editor.thumb.default.alpha.delta" value="102" />
     <entry key="mac.editor.thumb.darcula.alpha.base" value="0" />
@@ -17,5 +15,6 @@
     <entry key="mac.editor.thumb.darcula.fill.min" value="102" />
     <entry key="mac.editor.thumb.darcula.fill.max" value="163" />
     <entry key="ide.balloon.shadow.size" value="0" />
+    <entry key="ide.svg.icon" value="true" />
   </component>
 </application>
