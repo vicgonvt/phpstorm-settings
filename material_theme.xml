@@ -1,7 +1,8 @@
 <application>
   <component name="MaterialThemeConfig">
-    <option name="version" value="2.9.2" />
+    <option name="version" value="2.9.4" />
     <option name="selectedTheme" value="DARKER" />
+    <option name="highlightColor" value="80cbc4" />
     <option name="accentColor" value="FF9800" />
     <option name="userId" value="-4a3d952e:16465a43d30:-7fff" />
     <option name="allowDataCollection" value="true" />
