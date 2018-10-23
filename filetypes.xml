@@ -2,7 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="vue" type="HTML" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="hp" type="PLAIN_TEXT" />
+      <removed_mapping ext="vue" type="Vue.js" />
     </extensionMap>
   </component>
 </application>
