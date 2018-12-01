@@ -3,9 +3,6 @@
     <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="99" />
     <option name="FONT_FACE" value=".SFNSText-Regular" />
-    <option name="FONT_SCALE" value="1.0" />
-    <option name="FONT_SIZE" value="18" />
-    <option name="OVERRIDE_NONIDEA_LAF_FONTS" value="true" />
     <option name="PIN_FIND_IN_PATH_POPUP" value="true" />
     <option name="REUSE_NOT_MODIFIED_TABS" value="true" />
   </component>
