@@ -4,17 +4,17 @@
     <property name="created">2018-06-05T19:00:49</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2018.1.4.0.0</property>
-    <property name="modified">2018-06-20T14:26:50</property>
+    <property name="modified">2018-11-10T17:18:45</property>
     <property name="originalScheme">Material Darker</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.6" />
   <font>
     <option name="EDITOR_FONT_NAME" value="Fira Code" />
-    <option name="EDITOR_FONT_SIZE" value="15" />
+    <option name="EDITOR_FONT_SIZE" value="20" />
   </font>
   <font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="14" />
+    <option name="EDITOR_FONT_SIZE" value="20" />
   </font>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
   <option name="CONSOLE_FONT_SIZE" value="12" />
