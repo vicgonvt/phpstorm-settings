@@ -3,7 +3,7 @@
     <option name="CLOSE_NON_MODIFIED_FILES_FIRST" value="true" />
     <option name="EDITOR_TAB_LIMIT" value="99" />
     <option name="FONT_FACE" value=".SFNSText-Regular" />
-    <option name="PIN_FIND_IN_PATH_POPUP" value="true" />
-    <option name="REUSE_NOT_MODIFIED_TABS" value="true" />
+    <option name="FONT_SCALE" value="1.0" />
+    <option name="MAX_CLIPBOARD_CONTENTS" value="10" />
   </component>
 </application>

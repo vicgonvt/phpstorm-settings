@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="ChangesView.Diff" />
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="meta alt w" />
+  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>

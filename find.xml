@@ -13,9 +13,10 @@
     <mask>*.css</mask>
     <mask>*.mxml</mask>
     <mask>*.php</mask>
-    <mask>specifications.blade.php</mask>
     <mask>*.scss</mask>
-    <mask>*.blade.php</mask>
     <mask>*.md</mask>
+    <mask>specifications.blade.php</mask>
+    <mask>video.blade.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
