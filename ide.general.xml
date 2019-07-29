@@ -16,5 +16,6 @@
     <entry key="mac.editor.thumb.darcula.fill.max" value="163" />
     <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
+    <entry key="ide.tree.ui.experimental" value="false" />
   </component>
 </application>
