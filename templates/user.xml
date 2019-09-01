@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="fun" value="function () {&#10;    $FUNC$&#10;}" description="Function Callback" toReformat="true" toShortenFQNames="true">
+    <variable name="FUNC" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

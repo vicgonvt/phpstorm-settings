@@ -1,0 +1,116 @@
+<templateSet group="Shell Script">
+  <template name="fori" value="for $INDEX$ in $LOOP_ITEMS$ ; do&#10;    $END$$SELECTION$&#10;done" description="For loop in list" toReformat="true" toShortenFQNames="false">
+    <variable name="INDEX" expression="" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="LOOP_ITEMS" expression="" defaultValue="&quot;{1..5}&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cmd" value="`$COMMAND$`" description="Command substitution" toReformat="false" toShortenFQNames="false">
+    <variable name="COMMAND" expression="" defaultValue="&quot;command&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="cmd success check" value="if [[ $? == 0 ]]; then&#10;    echo &quot;Succeed&quot;$END$&#10;else&#10;    echo &quot;Failed&quot;&#10;fi" description="Cmd success check" toReformat="true" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="tar compress" value="tar -czvf $ARCHIVE$.tar.gz $DIRECTORY$" description="tar compress" toReformat="false" toShortenFQNames="false">
+    <variable name="ARCHIVE" expression="" defaultValue="&quot;/path/to/archive&quot;" alwaysStopAt="true" />
+    <variable name="DIRECTORY" expression="" defaultValue="&quot;/path/to/directory&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="tar decompress" value="tar -C $DIRECTORY$ -xzvf $ARCHIVE$.tar.gz" description="tar decompress" toReformat="false" toShortenFQNames="false">
+    <variable name="DIRECTORY" expression="" defaultValue="&quot;/extract/to/path&quot;" alwaysStopAt="true" />
+    <variable name="ARCHIVE" expression="" defaultValue="&quot;/path/to/archive&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="mkdir" value="mkdir &quot;$DIRECTORY$&quot;" description="Create directory" toReformat="false" toShortenFQNames="false">
+    <variable name="DIRECTORY" expression="" defaultValue="&quot;dirname&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="git branch create" value="git checkout -b $BRANCH$" description="Create branch" toReformat="false" toShortenFQNames="false">
+    <variable name="BRANCH" expression="" defaultValue="&quot;branch_name&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="git push" value="git push origin $BRANCH$" description="Push branch to remote" toReformat="false" toShortenFQNames="false">
+    <variable name="BRANCH" expression="" defaultValue="&quot;branch_name&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="git commit" value="git commit -m &quot;$MESSAGE$&quot;" description="Commit changes" toReformat="false" toShortenFQNames="false">
+    <variable name="MESSAGE" expression="" defaultValue="&quot;commit_message&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="curl" value="curl --request $METHOD$ -sL \&#10;     --url '$URL$'\&#10;     --output '$FILE$'" description="Http request" toReformat="true" toShortenFQNames="false">
+    <variable name="METHOD" expression="enum(&quot;GET&quot;,&quot;POST&quot;,&quot;PUT&quot;,&quot;DELETE&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="&quot;http://example.com&quot;" alwaysStopAt="true" />
+    <variable name="FILE" expression="" defaultValue="&quot;./path/to/file&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="rm" value="rm $PARAM$ $PATH$" description="Remove file or dir" toReformat="false" toShortenFQNames="false">
+    <variable name="PARAM" expression="enum(&quot;-f&quot;,&quot;-d&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATH" expression="" defaultValue="&quot;./path/file&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="find" value="find $PATH$ -type $PARAM$ -name &quot;$NAME$&quot;" description="Find file or directory" toReformat="false" toShortenFQNames="false">
+    <variable name="PATH" expression="" defaultValue="&quot;./path&quot;" alwaysStopAt="true" />
+    <variable name="PARAM" expression="enum(&quot;f&quot;,&quot;d&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="&quot;file_name&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="heredoc" value="&lt;&lt;EOF&#10;    $TEXT$$END$&#10;EOF" description="Multiline string" toReformat="true" toShortenFQNames="false">
+    <variable name="TEXT" expression="" defaultValue="&quot;text&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="xargs" value=" | xargs $COMMAND$" description="Execute commands from standard input" toReformat="false" toShortenFQNames="false">
+    <variable name="COMMAND" expression="" defaultValue="&quot;command&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="system info linux" value="lsb_release -a" description="Linux system information" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="system info mac" value="sw_vers" description="Mac OS system information" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="system kernel info" value="uname -a" description="Kernel information" toReformat="false" toShortenFQNames="false">
+    <context />
+  </template>
+  <template name="array create" value="$ARRAY$=($ITEMS$)&#10;" description="Create array" toReformat="false" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <variable name="ITEMS" expression="" defaultValue="&quot;item1 item2 item3&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="array all" value="${$ARRAY$[@]}&#10;" description="All array elements" toReformat="false" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="array at index" value="${$ARRAY$[$INDEX$]}&#10;" description="Elements at index" toReformat="false" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <variable name="INDEX" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="array length" value="${#$ARRAY$[@]}&#10;" description="Array length" toReformat="false" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="array delete" value="unset $ARRAY$&#10;" description="Delete array" toReformat="false" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="array delete at" value="unset $ARRAY$[$INDEX$]&#10;" description="Delete from array" toReformat="false" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <variable name="INDEX" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="array set element" value="$ARRAY$[$INDEX$]=$VALUE$&#10;" description="Array set element at index" toReformat="false" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <variable name="INDEX" expression="" defaultValue="&quot;index&quot;" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="array add" value="$ARRAY$+=($ITEM$)&#10;" description="Add new item to the end of array" toReformat="false" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <variable name="ITEM" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="array iteration" value="for item in ${$ARRAY$[@]}; do&#10;    echo &quot;$item&quot;$END$&#10;done&#10;" description="Iterate through array" toReformat="true" toShortenFQNames="false">
+    <variable name="ARRAY" expression="" defaultValue="&quot;myArray&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
