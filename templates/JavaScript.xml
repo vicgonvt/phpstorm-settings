@@ -1,15 +1,4 @@
 <templateSet group="JavaScript">
-  <template name="iter" value="for ($VARKIND$ $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of)" toReformat="true" toShortenFQNames="true">
-    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="var" alwaysStopAt="false" />
-    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="false" />
-    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="itera" value="for await ($VARKIND$ $VAR$ of $ARRAY$) {&#10;  $END$&#10;}" description="Iterate (for..of)" toReformat="true" toShortenFQNames="true">
-    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="var" alwaysStopAt="false" />
-    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="false" />
-    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
-  </template>
   <template name="log" value="console.log($END$)" description="console.log()" toReformat="true" toShortenFQNames="true" />
   <template name="error" value="console.error($END$)" description="console.error()" toReformat="true" toShortenFQNames="true" />
   <template name="warn" value="console.warn($END$)" description="console.warn()" toReformat="true" toShortenFQNames="true" />
