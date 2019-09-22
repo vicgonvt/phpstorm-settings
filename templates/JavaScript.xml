@@ -1,8 +1,20 @@
 <templateSet group="JavaScript">
-  <template name="log" value="console.log($END$)" description="console.log()" toReformat="true" toShortenFQNames="true" />
-  <template name="error" value="console.error($END$)" description="console.error()" toReformat="true" toShortenFQNames="true" />
-  <template name="warn" value="console.warn($END$)" description="console.warn()" toReformat="true" toShortenFQNames="true" />
-  <template name="info" value="console.info($END$)" description="console.info()" toReformat="true" toShortenFQNames="true" />
-  <template name="trace" value="console.trace($END$)" description="console.trace()" toReformat="true" toShortenFQNames="true" />
-  <template name="assert" value="console.assert($END$)" description="console.assert()" toReformat="true" toShortenFQNames="true" />
+  <template name="log" value="console.log($END$)" description="console.log()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="error" value="console.error($END$)" description="console.error()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="warn" value="console.warn($END$)" description="console.warn()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="info" value="console.info($END$)" description="console.info()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="trace" value="console.trace($END$)" description="console.trace()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="assert" value="console.assert($END$)" description="console.assert()" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
