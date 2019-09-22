@@ -1,50 +1,4 @@
 <templateSet group="Zen CSS">
-  <template name="@i" value="@import url($VAR0$);" description="@import url(...);" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="@import" value="@import url($VAR0$);" description="@import url(...);" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="@m" value="@media $VAR0$ {&#10;  $VAR1$&#10;}" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;screen&quot;" alwaysStopAt="true" />
-    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="@media" value="@media $VAR0$ {&#10;  $VAR1$&#10;}" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;screen&quot;" alwaysStopAt="true" />
-    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="@f" value="@font-face {&#10;  font-family:$VAR0$;&#10;  src:url($VAR1$);&#10;}" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="@f+" value="@font-face {&#10;  font-family:'$VAR0$';&#10;  src:url('$VAR1$.eot');&#10;  src: url('$VAR1$.eot?#iefix') format('embedded-opentype'), url('$VAR1$.woff') format('woff'), url('$VAR1$.ttf') format('truetype'), url('$VAR1$.svg#$VAR0$') format('svg');&#10;  font-style: $VAR2$;&#10;  font-weight: $VAR3$;&#10;}" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;FontName&quot;" alwaysStopAt="true" />
-    <variable name="VAR1" expression="" defaultValue="&quot;FileName&quot;" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true" />
-    <variable name="VAR3" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="@ff" value="@font-face {&#10;  font-family:'$VAR0$';&#10;  src:url('$VAR1$.eot');&#10;  src: url('$VAR1$.eot?#iefix') format('embedded-opentype'), url('$VAR1$.woff') format('woff'), url('$VAR1$.ttf') format('truetype'), url('$VAR1$.svg#$VAR0$') format('svg');&#10;  font-style: $VAR2$;&#10;  font-weight: $VAR3$;&#10;}" description="" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;FontName&quot;" alwaysStopAt="true" />
-    <variable name="VAR1" expression="" defaultValue="&quot;FileName&quot;" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true" />
-    <variable name="VAR3" expression="" defaultValue="&quot;normal&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="@kf" value="@-webkit-keyframes $NAME$ {&#10;  $FROM$ { $FROM_BODY$ }&#10; $TO${ $TO_BODY$ }  $OTHER_RULESETS$&#10;}&#10;                    @-o-keyframes $NAME$ {&#10;  $FROM$ { $FROM_BODY$ }&#10;  $TO$ { $TO_BODY$ }  $OTHER_RULESETS$&#10;}&#10;                    @-moz-keyframes $NAME$ {&#10;  $FROM$ { $FROM_BODY$ }&#10;  $TO$ { $TO_BODY$ }  $OTHER_RULESETS$&#10;}&#10;                    @keyframes $NAME$ {&#10;  $FROM$ { $FROM_BODY$ }&#10;  $TO$ { $TO_BODY$ }  $OTHER_RULESETS$&#10;}" description="keyframes" toReformat="true" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="&quot;identifier&quot;" alwaysStopAt="true" />
-    <variable name="FROM" expression="" defaultValue="&quot;from&quot;" alwaysStopAt="true" />
-    <variable name="FROM_BODY" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="TO" expression="" defaultValue="&quot;to&quot;" alwaysStopAt="true" />
-    <variable name="TO_BODY" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="OTHER_RULESETS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
   <template name="anim" value="animation: $END$;" description="animation:...;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
@@ -147,9 +101,6 @@
   </template>
   <template name="ap" value="appearance:$VALUE$;" description="appearance:...;" toReformat="true" toShortenFQNames="true">
     <variable name="VALUE" expression="" defaultValue="&quot;none&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
-  <template name="!" value="!important" description="!important" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
   <template name="pos" value="position:$VAR0$;" description="position:...;" toReformat="true" toShortenFQNames="true">
