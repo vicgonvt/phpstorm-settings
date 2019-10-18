@@ -5,7 +5,7 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="video.blade.php" />
+    <option name="FILE_MASK" value="*.blade.php" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -19,7 +19,7 @@
     <mask>*.scss</mask>
     <mask>*.md</mask>
     <mask>specifications.blade.php</mask>
-    <mask>*.blade.php</mask>
     <mask>video.blade.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
