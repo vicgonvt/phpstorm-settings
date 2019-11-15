@@ -5,4 +5,27 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="rget" value="Route::get('/$ROUTE$', '$NAME$Controller@$METHOD$'); $END$" description="Laravel Route template for GET" toReformat="true" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rpost" value="Route::post('/$ROUTE$', '$NAME$Controller@$METHOD$'); $END$" description="Laravel Route template for POST" toReformat="true" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rgetf" value="Route::get('/$ROUTE$', function () {&#10;    $CALLBACK$&#10;}); $END$" description="Laravel Route template for GET with a callback" toReformat="true" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CALLBACK" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
