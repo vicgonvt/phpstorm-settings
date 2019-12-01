@@ -7,13 +7,5 @@
       </blacklist>
     </blacklists>
     <option id="php.show.names.for.all.args" value="true" />
-    <disabledLanguages>
-      <language id="TypeScript" />
-      <language id="Angular2Html" />
-      <language id="JavaScript" />
-      <language id="Vue" />
-      <language id="PHP" />
-      <language id="SQL" />
-    </disabledLanguages>
   </component>
 </application>
