@@ -20,5 +20,6 @@
     <mask>specifications.blade.php</mask>
     <mask>video.blade.php</mask>
     <mask>*.blade.php</mask>
+    <mask>*Contro*</mask>
   </component>
 </application>
