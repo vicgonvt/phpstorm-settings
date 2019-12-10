@@ -5,5 +5,6 @@
     <variable name="FIELD_NAME" expression="" defaultValue="&quot;field-name&quot;" alwaysStopAt="true" />
     <variable name="FILE_NAME" expression="" defaultValue="&quot;file.txt&quot;" alwaysStopAt="true" />
     <variable name="FILE_PATH" expression="" defaultValue="&quot;./relative/path/to/local_file.txt&quot;" alwaysStopAt="true" />
+    <context />
   </template>
 </templateSet>
