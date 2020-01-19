@@ -33,6 +33,9 @@
   </action>
   <action id="NextProjectWindow" />
   <action id="ParameterInfo" />
+  <action id="PhpGeneratePhpDocBlocks">
+    <mouse-shortcut keystroke="meta button1 doubleClick" />
+  </action>
   <action id="Refresh" />
   <action id="Replace" />
   <action id="Rerun" />
