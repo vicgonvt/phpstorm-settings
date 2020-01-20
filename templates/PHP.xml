@@ -28,4 +28,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="$" value="$this-&gt;" description="PHP This" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
