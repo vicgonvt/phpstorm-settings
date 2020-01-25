@@ -14,6 +14,8 @@
               <option value="com.intellij.diff.tools.simple.SimpleDiffTool" />
               <option value="com.intellij.diff.tools.binary.BinaryDiffTool" />
               <option value="com.intellij.diff.tools.dir.DirDiffTool" />
+              <option value="com.intellij.database.model.diff.SchemaDiffTool" />
+              <option value="com.intellij.database.diff.TableDiffTool" />
             </list>
           </option>
         </PlaceSettings>
