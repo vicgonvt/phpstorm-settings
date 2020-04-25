@@ -294,7 +294,4 @@
       </interpreter>
     </phpInfoCache>
   </component>
-  <component name="PhpSmartKeysConfiguration">
-    <option name="selectVariableNameWithoutDollar" value="true" />
-  </component>
 </application>
