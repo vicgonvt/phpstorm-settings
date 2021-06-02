@@ -7,7 +7,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="layout.blade.php" />
+    <option name="FILE_MASK" value="*.blade.php" />
     <mask>*.properties</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -24,7 +24,7 @@
     <mask>*Contro*</mask>
     <mask>power.blade.php</mask>
     <mask>*.php</mask>
-    <mask>*.blade.php</mask>
     <mask>layout.blade.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
