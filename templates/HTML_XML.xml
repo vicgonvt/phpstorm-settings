@@ -10,10 +10,4 @@
       <option name="JSP" value="true" />
     </context>
   </template>
-  <template name="CD" value="&lt;![CDATA[&#10;$SELECTION$&#10;]]&gt;" description="Surround with CDATA section" toReformat="false" toShortenFQNames="false">
-    <context>
-      <option name="COMPLETION" value="false" />
-      <option name="JSP" value="true" />
-    </context>
-  </template>
 </templateSet>
