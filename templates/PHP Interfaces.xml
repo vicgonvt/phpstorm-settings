@@ -4,9 +4,4 @@
     <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="pubsf" value="public static function $NAME$($PARAMETERS$);" description="public static function" toReformat="true" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
-    <context />
-  </template>
 </templateSet>
