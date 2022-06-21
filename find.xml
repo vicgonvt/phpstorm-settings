@@ -5,6 +5,7 @@
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.blade.php" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
@@ -18,7 +19,6 @@
     <mask>*Contro*</mask>
     <mask>power.blade.php</mask>
     <mask>layout.blade.php</mask>
-    <mask>*.blade.php</mask>
     <mask>*.json</mask>
     <mask>*.vue</mask>
     <mask>*.css</mask>
@@ -32,5 +32,6 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.php</mask>
+    <mask>*.blade.php</mask>
   </component>
 </application>
