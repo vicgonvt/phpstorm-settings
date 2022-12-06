@@ -89,5 +89,7 @@
     <variable name="numData" expression="" defaultValue="&quot;numData&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="vbase" value="&lt;template&gt;&#10; &lt;div&gt;&#10;&#10; &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10; export default {&#10;  $END$&#10; }&#10;&lt;/script&gt;&#10;&#10;&lt;style scoped&gt;&#10;&#10;&lt;/style&gt;" description="Vue single file component" toReformat="true" toShortenFQNames="true" />
+  <template name="vbase" value="&lt;template&gt;&#10; &lt;div&gt;&#10;&#10; &lt;/div&gt;&#10;&lt;/template&gt;&#10;&#10;&lt;script&gt;&#10; export default {&#10;  $END$&#10; }&#10;&lt;/script&gt;&#10;&#10;&lt;style scoped&gt;&#10;&#10;&lt;/style&gt;" description="Vue single file component" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>

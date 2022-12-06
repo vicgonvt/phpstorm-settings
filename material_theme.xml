@@ -1,7 +1,6 @@
 <application>
   <component name="MaterialThemeConfig">
     <option name="contrastMode" value="true" />
-    <option name="highContrast" value="true" />
     <option name="allowDataCollection" value="true" />
     <option name="isContrastMode" value="true" />
     <option name="isHighContrast" value="true" />
@@ -9,6 +8,6 @@
     <option name="accentColor" value="ff9800" />
     <option name="selectedTheme" value="DARKER" />
     <option name="userId" value="15926095:16d3c096d6b:-8000" />
-    <option name="version" value="7.5.4" />
+    <option name="version" value="8.3.2" />
   </component>
 </application>
