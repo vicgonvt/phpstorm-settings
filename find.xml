@@ -8,7 +8,6 @@
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.java</mask>
-    <mask>*.js</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.scss</mask>
@@ -32,5 +31,6 @@
     <mask>*.php</mask>
     <mask>*.vue</mask>
     <mask>*.blade.php</mask>
+    <mask>*.js</mask>
   </component>
 </application>
