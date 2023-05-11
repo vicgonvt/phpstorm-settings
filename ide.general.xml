@@ -7,7 +7,7 @@
     <entry key="ide.balloon.shadow.size" value="0" />
     <entry key="ide.editor.tab.selection.animation" value="true" />
     <entry key="ide.new.editor.tabs.vertical.borders" value="true" />
-    <entry key="editor.focus.mode.color.light" value="474747" />
-    <entry key="editor.focus.mode.color.dark" value="474747" />
+    <entry key="editor.focus.mode.color.light" value="c9ccc3" />
+    <entry key="editor.focus.mode.color.dark" value="c9ccc3" />
   </component>
 </application>
