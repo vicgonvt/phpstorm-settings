@@ -1,5 +1,5 @@
 <application>
-  <component name="WebTypesNpmLoader" timestamp="1695148952292">
+  <component name="WebTypesNpmLoader" timestamp="1695818059251">
     <package name="@web-types/at-nuxt-vue-app">
       <version value="2.10.0-1" url="https://registry.npmjs.org/@web-types/at-nuxt-vue-app/-/at-nuxt-vue-app-2.10.0-1.tgz" />
       <version value="2.4.0-1" url="https://registry.npmjs.org/@web-types/at-nuxt-vue-app/-/at-nuxt-vue-app-2.4.0-1.tgz" />
@@ -114,6 +114,7 @@
       <package name="vue-router" />
       <package name="vuetify" />
       <package name="@nuxt/vue-app" />
+      <package name="lit" />
     </enabled>
   </component>
 </application>
