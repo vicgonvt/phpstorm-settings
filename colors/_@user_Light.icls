@@ -1,0 +1,22 @@
+<scheme name="_@user_Light" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="created">2023-11-01T15:47:55</property>
+    <property name="ide">PhpStorm</property>
+    <property name="ideVersion">2023.2.2.0.0</property>
+    <property name="modified">2023-11-01T15:48:50</property>
+    <property name="originalScheme">Light</property>
+    <property name="partialSave">true</property>
+  </metaInfo>
+  <colors>
+    <option name="FILESTATUS_ADDED" value="c3e887" />
+    <option name="FILESTATUS_DELETED" value="f77669" />
+    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+    <option name="FILESTATUS_SWITCHED" value="f77669" />
+    <option name="FILESTATUS_UNKNOWN" value="f77669" />
+  </colors>
+</scheme>
