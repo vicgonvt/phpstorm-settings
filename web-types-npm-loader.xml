@@ -1,5 +1,5 @@
 <application>
-  <component name="WebTypesNpmLoader" timestamp="1698752972573">
+  <component name="WebTypesNpmLoader" timestamp="1699017466219">
     <package name="@web-types/at-nuxt-vue-app">
       <version value="2.10.0-1" url="https://registry.npmjs.org/@web-types/at-nuxt-vue-app/-/at-nuxt-vue-app-2.10.0-1.tgz" />
       <version value="2.4.0-1" url="https://registry.npmjs.org/@web-types/at-nuxt-vue-app/-/at-nuxt-vue-app-2.4.0-1.tgz" />
