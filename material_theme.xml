@@ -4,9 +4,12 @@
     <option name="isContrastMode" value="true" />
     <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
-    <option name="accentColor" value="387bff" />
+    <option name="accentColor" value="79c0ff" />
+    <option name="secondAccentColor" />
+    <option name="highlightColor" />
+    <option name="focusColor" />
     <option name="selectedTheme" value="NATIVE" />
     <option name="userId" value="15926095:16d3c096d6b:-8000" />
-    <option name="version" value="8.12.6" />
+    <option name="version" value="8.13.2" />
   </component>
 </application>
