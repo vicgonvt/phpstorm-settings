@@ -1,0 +1,34 @@
+<application>
+  <component name="LogHighlightingSettings">
+    <highlightingPatterns>
+      <LogHighlightingPattern pattern="^\s*(e(rror)?|severe)\s*$" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-39836" bold="true" stripe="true" uuid="de2d3bb2-78c9-4beb-835e-d483c35c07b6" />
+      <LogHighlightingPattern pattern="^\s*w(arn(ing)?)?\s*$" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-6329600" bold="true" uuid="11ff1574-2118-4722-905a-61bec89b079e" />
+      <LogHighlightingPattern pattern="^\s*i(nfo)?\s*$" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-10316203" uuid="5e882ebc-2179-488b-8e1a-2fe488636f36" />
+      <LogHighlightingPattern pattern="^\s*notice\s*$" formatId="cfac4fb8-ee2c-489b-915c-ed35465a0ef8" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-8355712" uuid="acab2e5f-b0b7-4d16-8a88-617c818abfb6" />
+      <LogHighlightingPattern pattern="^.*error\s*$" formatId="cfac4fb8-ee2c-489b-915c-ed35465a0ef8" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-39836" bold="true" stripe="true" uuid="ebea071d-a83b-4473-8534-50a99088fc45" />
+      <LogHighlightingPattern pattern="^\s*critical\s*$" formatId="c1c8800e-b27c-4433-8d4a-3ec5a28f72a9" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-39836" bold="true" stripe="true" uuid="a72b5cbd-5420-47af-91ca-ef8339d2bb82" />
+      <LogHighlightingPattern pattern="^\s*debug\s*$" formatId="c1c8800e-b27c-4433-8d4a-3ec5a28f72a9" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-8355712" uuid="b4d82f98-2420-47ae-a8d2-a383e7082b85" />
+    </highlightingPatterns>
+    <parsingPatterns>
+      <LogParsingPattern enabled="false" name="Pipe-separated" pattern="^(?s)([^|]*)\|([^|]*)\|([^|]*)\|(.*)$" timePattern="HH:mm:ss.SSS" linePattern="^\d" timeId="0" severityId="1" categoryId="2" uuid="b5772998-bf1e-4d9d-ab41-da0b86451163" />
+      <LogParsingPattern enabled="false" name="IntelliJ IDEA" pattern="^([^\[]+)(\[[\s\d]+])\s*(\w*)\s*-\s*(\S*)\s*-(.+)$" timePattern="yyyy-MM-dd HH:mm:ss,SSS" linePattern="^\d" timeId="0" severityId="2" categoryId="3" uuid="8a0e8992-94cb-4f4c-8be2-42b03609626b" />
+      <LogParsingPattern enabled="false" name="TeamCity build log" pattern="^\[([^]]+)](.):\s*(\[[^]]+])?(.*)$" timePattern="HH:mm:ss" linePattern="^\[" timeId="0" severityId="1" categoryId="2" uuid="e9fa2755-8390-42f5-a41e-a909c58c8cf9" />
+      <LogParsingPattern enabled="false" name="Loguru" pattern="^(\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2}\.\d{3}\s)\|(\s[A-Z]*\s*)\|(\s.+:.+:\d+\s-\s.*)$" timePattern="yyyy-MM-dd HH:mm:ss.SSS" linePattern="^\d" timeId="0" severityId="1" categoryId="2" uuid="19dd1738-1dc7-4df6-b437-18e0800b7782" />
+      <LogParsingPattern enabled="false" name="Logcat" pattern="^(.+)(?:\s+\d*\s+\d*\s+)(V|D|I|W|E)\s([^:]+):(.*)$" timePattern="MM:dd HH:mm:ss.mmm" linePattern="^\d" timeId="0" severityId="1" categoryId="2" uuid="b8fcb4d4-b1b8-4681-90f1-42f7c02aaf67" />
+      <LogParsingPattern name="WordPress" pattern="^\[([\w\-:\s]+)]\s(\w+)\s([^:]+):\s(.*)$" timePattern="dd-MM-yyyy HH:mm:ss" linePattern="^\[" timeId="0" severityId="2" uuid="cfac4fb8-ee2c-489b-915c-ed35465a0ef8" />
+      <LogParsingPattern name="Symfony" pattern="^\[([\d\-T:\+\.)]+)\]\s(\w+)\.([A-Z]+):\s(.*)$" timePattern="yyyy-MM-dd'T'HH:mm:ss.SSSSSSXXX" linePattern="^\[" timeId="0" severityId="2" categoryId="1" uuid="c1c8800e-b27c-4433-8d4a-3ec5a28f72a9" />
+      <LogParsingPattern name="Laravel" pattern="^\[([\d\-: ]*)] (?!:)[\s\S]*?\.(.*?(?=:)): ([\s\S]*?(?=(^\[[\d\-: ]*])|\Z))$" timePattern="yyyy-MM-dd HH:mm:ss" linePattern="^\[\d" timeId="0" severityId="1" uuid="9a75fe1c-24f0-4e5d-8359-ce4dbb9c4c33" />
+    </parsingPatterns>
+    <externalParsingPatterns>
+      <LogParsingPattern name="WordPress" pattern="^\[([\w\-:\s]+)]\s(\w+)\s([^:]+):\s(.*)$" timePattern="dd-MM-yyyy HH:mm:ss" linePattern="^\[" timeId="0" severityId="2" uuid="cfac4fb8-ee2c-489b-915c-ed35465a0ef8" />
+      <LogParsingPattern name="Symfony" pattern="^\[([\d\-T:\+\.)]+)\]\s(\w+)\.([A-Z]+):\s(.*)$" timePattern="yyyy-MM-dd'T'HH:mm:ss.SSSSSSXXX" linePattern="^\[" timeId="0" severityId="2" categoryId="1" uuid="c1c8800e-b27c-4433-8d4a-3ec5a28f72a9" />
+      <LogParsingPattern name="Laravel" pattern="^\[([\d\-: ]*)] (?!:)[\s\S]*?\.(.*?(?=:)): ([\s\S]*?(?=(^\[[\d\-: ]*])|\Z))$" timePattern="yyyy-MM-dd HH:mm:ss" linePattern="^\[\d" timeId="0" severityId="1" uuid="9a75fe1c-24f0-4e5d-8359-ce4dbb9c4c33" />
+    </externalParsingPatterns>
+    <externalHighlightingPatterns>
+      <LogHighlightingPattern pattern="^\s*notice\s*$" formatId="cfac4fb8-ee2c-489b-915c-ed35465a0ef8" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-8355712" uuid="acab2e5f-b0b7-4d16-8a88-617c818abfb6" />
+      <LogHighlightingPattern pattern="^.*error\s*$" formatId="cfac4fb8-ee2c-489b-915c-ed35465a0ef8" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-39836" bold="true" stripe="true" uuid="ebea071d-a83b-4473-8534-50a99088fc45" />
+      <LogHighlightingPattern pattern="^\s*critical\s*$" formatId="c1c8800e-b27c-4433-8d4a-3ec5a28f72a9" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-39836" bold="true" stripe="true" uuid="a72b5cbd-5420-47af-91ca-ef8339d2bb82" />
+      <LogHighlightingPattern pattern="^\s*debug\s*$" formatId="c1c8800e-b27c-4433-8d4a-3ec5a28f72a9" captureGroup="-1" action="HIGHLIGHT_LINE" fg="-8355712" uuid="b4d82f98-2420-47ae-a8d2-a383e7082b85" />
+    </externalHighlightingPatterns>
+  </component>
+</application>
