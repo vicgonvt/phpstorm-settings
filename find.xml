@@ -29,8 +29,8 @@
     <mask>*.module</mask>
     <mask>*.inc</mask>
     <mask>*.php</mask>
-    <mask>*.js</mask>
     <mask>*.vue</mask>
     <mask>*.blade.php</mask>
+    <mask>*.js</mask>
   </component>
 </application>
