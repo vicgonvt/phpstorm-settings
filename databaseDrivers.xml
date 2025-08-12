@@ -1,10 +1,10 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
-    <driver id="mariadb">
-      <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="2.2.1" />
-    </driver>
     <driver id="sqlite.xerial">
       <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.8.11.2" />
+    </driver>
+    <driver id="mariadb">
+      <artifact id="MariaDB Connector J" name="MariaDB Connector J" use="true" version="2.2.1" />
     </driver>
   </component>
 </application>
