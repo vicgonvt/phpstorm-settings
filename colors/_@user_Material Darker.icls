@@ -20,16 +20,16 @@
   <colors>
     <option name="DOCUMENTATION_COLOR" value="212121" />
     <option name="FILESTATUS_IDEA_SVN_FILESTATUS_OBSTRUCTED" value="727238" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="c3e88d" />
-    <option name="NOTIFICATION_BACKGROUND" value="3d1a11" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="ff9800c0" />
-    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="ff980080" />
-    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="ff9800" />
-    <option name="ScrollBar.Mac.thumbBorderColor" value="ff9800c0" />
-    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="ff9800c0" />
-    <option name="ScrollBar.Transparent.thumbBorderColor" value="ff980080" />
-    <option name="ScrollBar.hoverThumbBorderColor" value="ff9800" />
-    <option name="ScrollBar.thumbBorderColor" value="ff9800c0" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="C3E88D" />
+    <option name="NOTIFICATION_BACKGROUND" value="3D1A11" />
+    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="FF9800C0" />
+    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="FF980080" />
+    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="FF9800" />
+    <option name="ScrollBar.Mac.thumbBorderColor" value="FF9800C0" />
+    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="FF9800C0" />
+    <option name="ScrollBar.Transparent.thumbBorderColor" value="FF980080" />
+    <option name="ScrollBar.hoverThumbBorderColor" value="FF9800" />
+    <option name="ScrollBar.thumbBorderColor" value="FF9800C0" />
   </colors>
   <attributes>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
