@@ -1,5 +1,6 @@
 <application>
   <component name="SettingsSyncSettings">
     <option name="migrationFromOldStorageChecked" value="true" />
+    <option name="syncEnabled" value="true" />
   </component>
 </application>
